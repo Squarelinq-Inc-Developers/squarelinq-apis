@@ -1,0 +1,26 @@
+{
+  "name": "squarelinq-apis",
+  "version": "1.0.0",
+  "description": "SquareLinq backend",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squarelinq-Inc-Developers/squarelinq-apis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Squarelinq-Inc-Developers/squarelinq-apis/issues"
+  },
+  "homepage": "https://github.com/Squarelinq-Inc-Developers/squarelinq-apis#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  }
+}
